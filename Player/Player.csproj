@@ -76,6 +76,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ButtonControl.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +96,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -109,6 +111,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open file.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openfolder_4896.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348526-arrow-back-backwards-repeat-previous_80453.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348532-music-play-pause-control-go-arrow_80458.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348525-music-forward-front-next-arrow_80457.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348535-music-square-stop-play-pause_80450.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348534-music-pause-stop-control-play_80459.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savetheapplication_guardar_2958.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
